@@ -1,6 +1,9 @@
 [
 	{
-	"module" : "dirlister"
+	"module" : "dirlister.py"
+	},
+	{
+	"module" : "ss.py"
 	},
 	{
 	"module" : "environment"
