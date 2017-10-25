@@ -3,6 +3,6 @@
 	"module" : "dirlister"
 	},
 	{
-	"module" : "ss.py"
+	"module" : "ss"
 	}
 ]
