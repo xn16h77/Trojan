@@ -1,11 +1,8 @@
 [
 	{
-	"module" : "dirlister"
+	"module" : "key2.py"
 	},
 	{
 	"module" : "environment"
-	},
-	{
-	"module" : "key2.py"
 	}
 ]
