@@ -3,6 +3,9 @@
 	"module" : "key2.py"
 	},
 	{
+	"module" : "dirlister"
+	},
+	{
 	"module" : "environment"
 	}
 ]
