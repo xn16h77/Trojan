@@ -4,8 +4,5 @@
 	},
 	{
 	"module" : "ss.py"
-	},
-	{
-	"module" : "environment"
 	}
 ]
